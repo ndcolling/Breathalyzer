@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes
+END
+APYahooDataPullerGraph.xib
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/APYahooDataPullerGraph.xib
+END
+NSDictionary+APFinancalData.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/NSDictionary+APFinancalData.m
+END
+APYahooDataPuller.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/APYahooDataPuller.h
+END
+StockPlotAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/StockPlotAppDelegate.h
+END
+APYahooDataPullerGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/APYahooDataPullerGraph.h
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/RootViewController.h
+END
+StockPlotAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/StockPlotAppDelegate.m
+END
+APYahooDataPuller.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/APYahooDataPuller.m
+END
+APYahooDataPullerGraph.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/APYahooDataPullerGraph.m
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/RootViewController.m
+END
+NSDictionary+APFinancalData.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/StockPlot/Classes/NSDictionary+APFinancalData.h
+END

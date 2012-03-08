@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/main.m
+END
+CorePlot-CocoaTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot-CocoaTouch.h
+END
+CPTestHost-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CPTestHost-Info.plist
+END
+CorePlot_CocoaTouch_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot_CocoaTouch_Prefix.pch
+END
+main-cocoatouch.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/main-cocoatouch.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/Info.plist
+END
+Info-CocoaTouch.plist
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/Info-CocoaTouch.plist
+END
+CorePlot-UnitTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot-UnitTests-Info.plist
+END
+CorePlot-PerformanceTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot-PerformanceTests-Info.plist
+END
+CorePlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot.h
+END
+CorePlot_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/tests/CorePlot_Prefix.pch
+END

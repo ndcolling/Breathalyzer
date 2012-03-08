@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/main.m
+END
+NSString+ParseCSV.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/NSString+ParseCSV.h
+END
+NSString+ParseCSV.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/NSString+ParseCSV.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/Info.plist
+END
+CPPlotDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/CPPlotDocument.h
+END
+DropPlot_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/DropPlot_Prefix.pch
+END
+CorePlotIcon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/CorePlotIcon.icns
+END
+CPPlotDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/DropPlot/CPPlotDocument.m
+END

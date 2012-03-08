@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target
+END
+ReleaseUnittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/ReleaseUnittest.xcconfig
+END
+DebugUnittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/DebugUnittest.xcconfig
+END
+SharedLibraryGCSupported.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/SharedLibraryGCSupported.xcconfig
+END
+SharedLibrary.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/SharedLibrary.xcconfig
+END
+StaticLibrary.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/StaticLibrary.xcconfig
+END
+StaticLibraryGCSupported.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/StaticLibraryGCSupported.xcconfig
+END
+LoadableBundleGCSupported.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/LoadableBundleGCSupported.xcconfig
+END
+LoadableBundle.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/TestMerge/externals/google-toolbox-for-mac/XcodeConfig/Target/LoadableBundle.xcconfig
+END

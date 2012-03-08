@@ -1,0 +1,1043 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source
+END
+CPXYAxisSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYAxisSet.m
+END
+CPMutableNumericData.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericData.h
+END
+CPPlotArea.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotArea.h
+END
+NSDecimalNumberExtensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSDecimalNumberExtensions.m
+END
+CPDarkGradientThemeTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDarkGradientThemeTests.m
+END
+CPMutableNumericData.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericData.m
+END
+CPTestCase.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTestCase.h
+END
+CPPlotArea.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotArea.m
+END
+CPNumericDataTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTests.h
+END
+CPTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTestCase.m
+END
+CPImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPImage.h
+END
+CPNumericDataTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTests.m
+END
+CPXYAxis.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYAxis.h
+END
+CPImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPImage.m
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/license.txt
+END
+CPXYAxis.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYAxis.m
+END
+CPPlotSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSpace.h
+END
+CPRangePlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPRangePlot.h
+END
+CPNumericData.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericData.h
+END
+CPUtilitiesTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPUtilitiesTests.h
+END
+CPPlotSpace.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSpace.m
+END
+CPRangePlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPRangePlot.m
+END
+CPNumericData.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericData.m
+END
+CPUtilitiesTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPUtilitiesTests.m
+END
+CPTradingRangePlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTradingRangePlot.h
+END
+CPAnnotationHostLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAnnotationHostLayer.h
+END
+CPTradingRangePlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTradingRangePlot.m
+END
+CPAnnotationHostLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAnnotationHostLayer.m
+END
+CPDefinitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDefinitions.h
+END
+CPNumericData+TypeConversions_Generation.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericData+TypeConversions_Generation.py
+END
+CPDefinitions.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDefinitions.m
+END
+CPAxisLabelGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabelGroup.h
+END
+CPPlotAreaFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotAreaFrame.h
+END
+CPXYGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYGraph.h
+END
+CPThemeTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPThemeTests.h
+END
+CPAxisLabelGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabelGroup.m
+END
+CPPlotAreaFrame.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotAreaFrame.m
+END
+CPXYGraph.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYGraph.m
+END
+CPAxisLabelTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabelTests.h
+END
+CPPlainWhiteTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlainWhiteTheme.h
+END
+CPMutableNumericDataTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericDataTests.h
+END
+CPThemeTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPThemeTests.m
+END
+CPAxisLabelTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabelTests.m
+END
+CPPlainWhiteTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlainWhiteTheme.m
+END
+CPXYPlotSpaceTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYPlotSpaceTests.h
+END
+CPMutableNumericDataTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericDataTests.m
+END
+CPMutableNumericDataTypeConversionTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericDataTypeConversionTests.h
+END
+CPXYPlotSpaceTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYPlotSpaceTests.m
+END
+CPAxisLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabel.h
+END
+CPTextStyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextStyle.h
+END
+CPMutableNumericDataTypeConversionTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericDataTypeConversionTests.m
+END
+CPAxisTitle.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisTitle.h
+END
+CPAxisLabel.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisLabel.m
+END
+CPTextStyle.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextStyle.m
+END
+CPAxisTitle.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisTitle.m
+END
+CPPathExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPathExtensions.h
+END
+CPPlotRangeTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotRangeTests.h
+END
+CPExceptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPExceptions.h
+END
+CPPathExtensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPathExtensions.m
+END
+CPDarkGradientTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDarkGradientTheme.h
+END
+CPPlotRangeTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotRangeTests.m
+END
+CPDataSourceTestCase.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDataSourceTestCase.h
+END
+CPExceptions.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPExceptions.m
+END
+NSNumberExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSNumberExtensions.h
+END
+CPDarkGradientTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDarkGradientTheme.m
+END
+CPDataSourceTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDataSourceTestCase.m
+END
+NSNumberExtensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSNumberExtensions.m
+END
+CPGradient.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGradient.h
+END
+CPGradient.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGradient.m
+END
+CPBarPlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPBarPlot.h
+END
+CPBarPlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPBarPlot.m
+END
+CPLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayer.h
+END
+CPAxisSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisSet.h
+END
+CPLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayer.m
+END
+CPPlainBlackTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlainBlackTheme.h
+END
+CPAxisSet.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisSet.m
+END
+CPScatterPlotTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPScatterPlotTests.h
+END
+CPPlainBlackTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlainBlackTheme.m
+END
+CPMutableNumericData+TypeConversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericData+TypeConversion.h
+END
+CPScatterPlotTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPScatterPlotTests.m
+END
+CPConstrainedPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPConstrainedPosition.h
+END
+CPMutableNumericData+TypeConversion.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableNumericData+TypeConversion.m
+END
+CPTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTheme.h
+END
+_CPFillGradient.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillGradient.h
+END
+CPConstrainedPosition.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPConstrainedPosition.m
+END
+CPScatterPlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPScatterPlot.h
+END
+CPTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTheme.m
+END
+CPLayerAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayerAnnotation.h
+END
+CPLayoutManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayoutManager.h
+END
+_CPFillGradient.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillGradient.m
+END
+CPLineStyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLineStyle.h
+END
+CPScatterPlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPScatterPlot.m
+END
+CPAxisTitle.m.orig
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxisTitle.m.orig
+END
+CPLayerAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayerAnnotation.m
+END
+CPLineStyle.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLineStyle.m
+END
+CPLayoutManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLayoutManager.m
+END
+CPTimeFormatter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTimeFormatter.h
+END
+_CPFillColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillColor.h
+END
+CPDerivedXYGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDerivedXYGraph.h
+END
+CPTimeFormatter.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTimeFormatter.m
+END
+CPNumericDataTypeConversionTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTypeConversionTests.h
+END
+_CPFillColor.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillColor.m
+END
+CPDerivedXYGraph.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDerivedXYGraph.m
+END
+CPNumericDataTypeConversionTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTypeConversionTests.m
+END
+CPResponder.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPResponder.h
+END
+CPColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPColor.h
+END
+CPMutableTextStyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableTextStyle.h
+END
+NSExceptionExtensionsTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSExceptionExtensionsTests.h
+END
+CPGridLines.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGridLines.h
+END
+CPTextLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextLayer.h
+END
+CPColor.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPColor.m
+END
+NSExceptionExtensionsTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSExceptionExtensionsTests.m
+END
+CPMutableTextStyle.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableTextStyle.m
+END
+CPGridLines.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGridLines.m
+END
+CPPlotSpaceAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSpaceAnnotation.h
+END
+CPTextLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextLayer.m
+END
+CPPlotSpaceAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSpaceAnnotation.m
+END
+NSExceptionExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSExceptionExtensions.h
+END
+NSExceptionExtensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSExceptionExtensions.m
+END
+CPUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPUtilities.h
+END
+CPPlot.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlot.h
+END
+CPNumericData+TypeConversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericData+TypeConversion.h
+END
+CPUtilities.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPUtilities.m
+END
+CPXYTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYTheme.h
+END
+CPPlot.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlot.m
+END
+CPNumericData+TypeConversion.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericData+TypeConversion.m
+END
+CPFill.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPFill.h
+END
+CPXYTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYTheme.m
+END
+CPTextStyleTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextStyleTests.h
+END
+CPFill.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPFill.m
+END
+CPTextStyleTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPTextStyleTests.m
+END
+CPGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGraph.h
+END
+CPLimitBand.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLimitBand.h
+END
+CPPlotSymbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSymbol.h
+END
+CPAxis.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxis.h
+END
+CPGraph.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGraph.m
+END
+CPLimitBand.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPLimitBand.m
+END
+CPNumericDataTypeConversionPerformanceTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTypeConversionPerformanceTests.h
+END
+CPPlotSymbol.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotSymbol.m
+END
+CPAxis.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAxis.m
+END
+CPGridLineGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGridLineGroup.h
+END
+CPAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAnnotation.h
+END
+CPXYPlotSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYPlotSpace.h
+END
+CPNumericDataTypeConversionPerformanceTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataTypeConversionPerformanceTests.m
+END
+CPGridLineGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPGridLineGroup.m
+END
+CPAnnotation.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPAnnotation.m
+END
+CPXYPlotSpace.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYPlotSpace.m
+END
+CPMutableLineStyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableLineStyle.h
+END
+CPBorderedLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPBorderedLayer.h
+END
+CPMutableLineStyle.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPMutableLineStyle.m
+END
+_CPFillImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillImage.h
+END
+CPPolarPlotSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPolarPlotSpace.h
+END
+CPBorderedLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPBorderedLayer.m
+END
+CPStocksTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPStocksTheme.h
+END
+CPColorSpace.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPColorSpace.h
+END
+CPPlotGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotGroup.h
+END
+CPPlotRange.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotRange.h
+END
+CPSlateTheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPSlateTheme.h
+END
+_CPFillImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/_CPFillImage.m
+END
+CPPolarPlotSpace.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPolarPlotSpace.m
+END
+mainpage.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/mainpage.h
+END
+CPStocksTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPStocksTheme.m
+END
+CPNumericDataType.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataType.h
+END
+CPPieChart.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPieChart.h
+END
+CPColorSpace.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPColorSpace.m
+END
+CPPlotRange.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotRange.m
+END
+CPSlateTheme.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPSlateTheme.m
+END
+CPPlotGroup.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPlotGroup.m
+END
+CPXYAxisSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPXYAxisSet.h
+END
+CPNumericDataType.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPNumericDataType.m
+END
+CPPieChart.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPPieChart.m
+END
+CPDarkGradientThemeTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/CPDarkGradientThemeTests.h
+END
+NSDecimalNumberExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/Source/NSDecimalNumberExtensions.h
+END

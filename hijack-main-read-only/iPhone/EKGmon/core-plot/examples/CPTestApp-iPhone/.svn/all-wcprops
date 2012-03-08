@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/main.m
+END
+PieChart.xib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/PieChart.xib
+END
+CorePlotIcon.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/CorePlotIcon.png
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/Info.plist
+END
+ScatterPlot.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/ScatterPlot.xib
+END
+BarChart.xib
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/BarChart.xib
+END
+CPTestApp_iPhone_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/CPTestApp_iPhone_Prefix.pch
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp-iPhone/MainWindow.xib
+END

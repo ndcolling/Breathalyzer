@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/main.m
+END
+RotationView.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/RotationView.h
+END
+CPPlotSymbolTestController.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/CPPlotSymbolTestController.h
+END
+AxisDemoController.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/AxisDemoController.h
+END
+SelectionDemoController.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/SelectionDemoController.h
+END
+RotationView.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/RotationView.m
+END
+CPPlotSymbolTestController.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/CPPlotSymbolTestController.m
+END
+AxisDemoController.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/AxisDemoController.m
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/Controller.h
+END
+SelectionDemoController.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/SelectionDemoController.m
+END
+Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/CPTestApp/Source/Controller.m
+END

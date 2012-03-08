@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild/build.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild/README.txt
+END
+iphonesimulator-SDKSettings.plist
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild/iphonesimulator-SDKSettings.plist
+END
+cp.sed
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild/cp.sed
+END
+iphoneos-SDKSettings.plist
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/framework/SDKBuild/iphoneos-SDKSettings.plist
+END

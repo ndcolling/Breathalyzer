@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes
+END
+FlipsideView.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/FlipsideView.h
+END
+AAPLotAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.h
+END
+FlipsideViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/FlipsideViewController.h
+END
+FlipsideView.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/FlipsideView.m
+END
+AAPLotAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/AAPLotAppDelegate.m
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/RootViewController.h
+END
+MainViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/MainViewController.h
+END
+FlipsideViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/FlipsideViewController.m
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/RootViewController.m
+END
+MainViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/AAPLot/Classes/MainViewController.m
+END

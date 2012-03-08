@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac
+END
+UnitTest-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/UnitTest-Info.plist
+END
+BuildingAndUsing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/BuildingAndUsing.txt
+END
+ReleaseNotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/ReleaseNotes.txt
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/COPYING
+END
+GTM-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/GTM-Info.plist
+END
+GTMDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/GTMDefines.h
+END
+GTMiPhone-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/GTMiPhone-Info.plist
+END
+GTM_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/GTM_Prefix.pch
+END

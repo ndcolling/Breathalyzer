@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project
+END
+ReleaseLeopardOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/ReleaseLeopardOrLater.xcconfig
+END
+ReleaseiPhone.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/ReleaseiPhone.xcconfig
+END
+ReleaseTigerOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/ReleaseTigerOrLater.xcconfig
+END
+DebugLeopardOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/DebugLeopardOrLater.xcconfig
+END
+DebugiPhone.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/DebugiPhone.xcconfig
+END
+DebugTigerOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/Project/DebugTigerOrLater.xcconfig
+END

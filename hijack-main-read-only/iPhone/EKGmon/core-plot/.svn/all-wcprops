@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/20/trunk/iPhone/EKGmon/core-plot
+END
+.hgignore
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/.hgignore
+END
+License.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/License.txt
+END
+.hgtags
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/.hgtags
+END

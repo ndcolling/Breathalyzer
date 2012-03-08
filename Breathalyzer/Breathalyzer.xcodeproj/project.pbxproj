@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
+		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
+		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
+		1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1815096A81007E11A1 /* InfoPlist.strings */; };
+		1AE8AC1C15096A81007E11A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1B15096A81007E11A1 /* main.m */; };
+		1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */; };
+		1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */; };
+		1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */; };
+		1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */; };
+		1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */; };
+		1AE8AC3615096A81007E11A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */; };
+		1AE8AC3715096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
+		1AE8AC3815096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
+		1AE8AC3915096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
+		1AE8AC4115096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */; };
+		1AE8AC4315096A81007E11A1 /* BreathalyzerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4215096A81007E11A1 /* BreathalyzerTests.h */; };
+		1AE8AC4515096A81007E11A1 /* BreathalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4415096A81007E11A1 /* BreathalyzerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE8AC3A15096A81007E11A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE8AC0215096A81007E11A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE8AC0A15096A81007E11A1;
+			remoteInfo = Breathalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AE8AC1715096A81007E11A1 /* Breathalyzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Breathalyzer-Info.plist"; sourceTree = "<group>"; };
+		1AE8AC1915096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AE8AC1B15096A81007E11A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AE8AC1D15096A81007E11A1 /* Breathalyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breathalyzer-Prefix.pch"; sourceTree = "<group>"; };
+		1AE8AC1E15096A81007E11A1 /* BreathalyzerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreathalyzerAppDelegate.h; sourceTree = "<group>"; };
+		1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerAppDelegate.m; sourceTree = "<group>"; };
+		1AE8AC2215096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BreathalyzerAppDelegate_iPhone.h; path = iPhone/BreathalyzerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BreathalyzerAppDelegate_iPhone.m; path = iPhone/BreathalyzerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		1AE8AC2615096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		1AE8AC2915096A81007E11A1 /* BreathalyzerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BreathalyzerAppDelegate_iPad.h; path = iPad/BreathalyzerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BreathalyzerAppDelegate_iPad.m; path = iPad/BreathalyzerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		1AE8AC2D15096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		1AE8AC3415096A81007E11A1 /* BreathalyzerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathalyzerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AE8AC3E15096A81007E11A1 /* BreathalyzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreathalyzerTests-Info.plist"; sourceTree = "<group>"; };
+		1AE8AC4015096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AE8AC4215096A81007E11A1 /* BreathalyzerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreathalyzerTests.h; sourceTree = "<group>"; };
+		1AE8AC4415096A81007E11A1 /* BreathalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE8AC0815096A81007E11A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */,
+				1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */,
+				1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC3015096A81007E11A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC3615096A81007E11A1 /* SenTestingKit.framework in Frameworks */,
+				1AE8AC3715096A81007E11A1 /* UIKit.framework in Frameworks */,
+				1AE8AC3815096A81007E11A1 /* Foundation.framework in Frameworks */,
+				1AE8AC3915096A81007E11A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE8AC0015096A81007E11A1 = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC1515096A81007E11A1 /* Breathalyzer */,
+				1AE8AC3C15096A81007E11A1 /* BreathalyzerTests */,
+				1AE8AC0E15096A81007E11A1 /* Frameworks */,
+				1AE8AC0C15096A81007E11A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE8AC0C15096A81007E11A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */,
+				1AE8AC3415096A81007E11A1 /* BreathalyzerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE8AC0E15096A81007E11A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC0F15096A81007E11A1 /* UIKit.framework */,
+				1AE8AC1115096A81007E11A1 /* Foundation.framework */,
+				1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */,
+				1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AE8AC1515096A81007E11A1 /* Breathalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC1E15096A81007E11A1 /* BreathalyzerAppDelegate.h */,
+				1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */,
+				1AE8AC2115096A81007E11A1 /* iPhone */,
+				1AE8AC2815096A81007E11A1 /* iPad */,
+				1AE8AC1615096A81007E11A1 /* Supporting Files */,
+			);
+			path = Breathalyzer;
+			sourceTree = "<group>";
+		};
+		1AE8AC1615096A81007E11A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC1715096A81007E11A1 /* Breathalyzer-Info.plist */,
+				1AE8AC1815096A81007E11A1 /* InfoPlist.strings */,
+				1AE8AC1B15096A81007E11A1 /* main.m */,
+				1AE8AC1D15096A81007E11A1 /* Breathalyzer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE8AC2115096A81007E11A1 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC2215096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.h */,
+				1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */,
+				1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		1AE8AC2815096A81007E11A1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC2915096A81007E11A1 /* BreathalyzerAppDelegate_iPad.h */,
+				1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */,
+				1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		1AE8AC3C15096A81007E11A1 /* BreathalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC4215096A81007E11A1 /* BreathalyzerTests.h */,
+				1AE8AC4415096A81007E11A1 /* BreathalyzerTests.m */,
+				1AE8AC3D15096A81007E11A1 /* Supporting Files */,
+			);
+			path = BreathalyzerTests;
+			sourceTree = "<group>";
+		};
+		1AE8AC3D15096A81007E11A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8AC3E15096A81007E11A1 /* BreathalyzerTests-Info.plist */,
+				1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE8AC0A15096A81007E11A1 /* Breathalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8AC4815096A81007E11A1 /* Build configuration list for PBXNativeTarget "Breathalyzer" */;
+			buildPhases = (
+				1AE8AC0715096A81007E11A1 /* Sources */,
+				1AE8AC0815096A81007E11A1 /* Frameworks */,
+				1AE8AC0915096A81007E11A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breathalyzer;
+			productName = Breathalyzer;
+			productReference = 1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AE8AC3315096A81007E11A1 /* BreathalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8AC4B15096A81007E11A1 /* Build configuration list for PBXNativeTarget "BreathalyzerTests" */;
+			buildPhases = (
+				1AE8AC2F15096A81007E11A1 /* Sources */,
+				1AE8AC3015096A81007E11A1 /* Frameworks */,
+				1AE8AC3115096A81007E11A1 /* Resources */,
+				1AE8AC3215096A81007E11A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE8AC3B15096A81007E11A1 /* PBXTargetDependency */,
+			);
+			name = BreathalyzerTests;
+			productName = BreathalyzerTests;
+			productReference = 1AE8AC3415096A81007E11A1 /* BreathalyzerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE8AC0215096A81007E11A1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1AE8AC0515096A81007E11A1 /* Build configuration list for PBXProject "Breathalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AE8AC0015096A81007E11A1;
+			productRefGroup = 1AE8AC0C15096A81007E11A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE8AC0A15096A81007E11A1 /* Breathalyzer */,
+				1AE8AC3315096A81007E11A1 /* BreathalyzerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE8AC0915096A81007E11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */,
+				1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */,
+				1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC3115096A81007E11A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC4115096A81007E11A1 /* InfoPlist.strings in Resources */,
+				1AE8AC4315096A81007E11A1 /* BreathalyzerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE8AC3215096A81007E11A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE8AC0715096A81007E11A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC1C15096A81007E11A1 /* main.m in Sources */,
+				1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.m in Sources */,
+				1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m in Sources */,
+				1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8AC2F15096A81007E11A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE8AC4515096A81007E11A1 /* BreathalyzerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE8AC3B15096A81007E11A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE8AC0A15096A81007E11A1 /* Breathalyzer */;
+			targetProxy = 1AE8AC3A15096A81007E11A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE8AC1815096A81007E11A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC1915096A81007E11A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC2615096A81007E11A1 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC2D15096A81007E11A1 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8AC4015096A81007E11A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE8AC4615096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE8AC4715096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE8AC4915096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AE8AC4A15096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AE8AC4C15096A81007E11A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1AE8AC4D15096A81007E11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE8AC0515096A81007E11A1 /* Build configuration list for PBXProject "Breathalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4615096A81007E11A1 /* Debug */,
+				1AE8AC4715096A81007E11A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE8AC4815096A81007E11A1 /* Build configuration list for PBXNativeTarget "Breathalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4915096A81007E11A1 /* Debug */,
+				1AE8AC4A15096A81007E11A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AE8AC4B15096A81007E11A1 /* Build configuration list for PBXNativeTarget "BreathalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8AC4C15096A81007E11A1 /* Debug */,
+				1AE8AC4D15096A81007E11A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE8AC0215096A81007E11A1 /* Project object */;
+}

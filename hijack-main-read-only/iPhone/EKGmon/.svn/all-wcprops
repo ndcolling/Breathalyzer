@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/20/trunk/iPhone/EKGmon
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/main.m
+END
+Icon@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/Icon@2x.png
+END
+icon.pxm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/icon.pxm
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/MainWindow.xib
+END
+aurio_helper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/aurio_helper.cpp
+END
+EKGmonViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/EKGmonViewController.xib
+END
+LogicTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/LogicTests-Info.plist
+END
+EKGmon-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/EKGmon-Info.plist
+END
+icon-nowatermark.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/icon-nowatermark.png
+END
+aurio_helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/aurio_helper.h
+END
+hert_logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/hert_logo.png
+END
+LogicTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/LogicTests.h
+END
+EKGmon_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/EKGmon_Prefix.pch
+END
+Icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/Icon.png
+END
+LogicTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/LogicTests.m
+END

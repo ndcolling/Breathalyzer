@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig
+END
+Release.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/Release.xcconfig
+END
+iPhone.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/iPhone.xcconfig
+END
+TigerOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/TigerOrLater.xcconfig
+END
+CodeCoverage.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/CodeCoverage.xcconfig
+END
+Debug.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/Debug.xcconfig
+END
+64bit.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/64bit.xcconfig
+END
+General.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/General.xcconfig
+END
+CodeCoverageStatic.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/CodeCoverageStatic.xcconfig
+END
+LeopardOrLater.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/LeopardOrLater.xcconfig
+END
+GCSupported.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/GCSupported.xcconfig
+END
+Unittest.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/systemtests/google-toolbox-for-mac/XcodeConfig/subconfig/Unittest.xcconfig
+END

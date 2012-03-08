@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter
+END
+minorTickFormatter.xib
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/minorTickFormatter.xib
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/Info.plist
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/Controller.h
+END
+minorTickFormatter_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/minorTickFormatter_Prefix.pch
+END
+CorePlotIcon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/CorePlotIcon.icns
+END
+BlueTexture.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/BlueTexture.png
+END
+Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12/trunk/iPhone/EKGmon/core-plot/examples/minorTickFormatter/Controller.m
+END
