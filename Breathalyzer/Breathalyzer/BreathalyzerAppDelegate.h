@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HiJackMgr.h"
 
-@interface BreathalyzerAppDelegate : NSObject <UIApplicationDelegate>
+@class BreathalyzerViewController;
+
+@interface BreathalyzerAppDelegate : NSObject <UIApplicationDelegate> {
+      HiJackMgr* hiJackMgr;
+}
+
+-(int)receive:(UInt8)data;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet BreathalyzerViewController *viewController;
 
 @end

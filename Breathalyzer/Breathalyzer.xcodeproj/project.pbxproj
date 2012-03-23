@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A013A0C151BBC870006C14D /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A01151BBC870006C14D /* aurio_helper.cpp */; };
+		1A013A0D151BBC870006C14D /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A03151BBC870006C14D /* CADebugMacros.cpp */; };
+		1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */; };
+		1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A08151BBC870006C14D /* CAXException.cpp */; };
+		1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A0B151BBC870006C14D /* HiJackMgr.mm */; };
 		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
 		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
 		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
 		1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1815096A81007E11A1 /* InfoPlist.strings */; };
 		1AE8AC1C15096A81007E11A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1B15096A81007E11A1 /* main.m */; };
-		1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */; };
-		1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */; };
+		1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.mm */; };
+		1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.mm */; };
 		1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */; };
-		1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */; };
+		1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.mm */; };
 		1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */; };
 		1AE8AC3615096A81007E11A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */; };
 		1AE8AC3715096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
@@ -24,6 +29,7 @@
 		1AE8AC4115096A81007E11A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC3F15096A81007E11A1 /* InfoPlist.strings */; };
 		1AE8AC4315096A81007E11A1 /* BreathalyzerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4215096A81007E11A1 /* BreathalyzerTests.h */; };
 		1AE8AC4515096A81007E11A1 /* BreathalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8AC4415096A81007E11A1 /* BreathalyzerTests.m */; };
+		1AEDCB49151BC01500AFF1AC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A013A01151BBC870006C14D /* aurio_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aurio_helper.cpp; path = Lib/aurio_helper.cpp; sourceTree = "<group>"; };
+		1A013A02151BBC870006C14D /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aurio_helper.h; path = Lib/aurio_helper.h; sourceTree = "<group>"; };
+		1A013A03151BBC870006C14D /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugMacros.cpp; path = Lib/CADebugMacros.cpp; sourceTree = "<group>"; };
+		1A013A04151BBC870006C14D /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = Lib/CADebugMacros.h; sourceTree = "<group>"; };
+		1A013A05151BBC870006C14D /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = Lib/CAMath.h; sourceTree = "<group>"; };
+		1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = Lib/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		1A013A07151BBC870006C14D /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = Lib/CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		1A013A08151BBC870006C14D /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = Lib/CAXException.cpp; sourceTree = "<group>"; };
+		1A013A09151BBC870006C14D /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Lib/CAXException.h; sourceTree = "<group>"; };
+		1A013A0A151BBC870006C14D /* HiJackMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiJackMgr.h; path = Lib/HiJackMgr.h; sourceTree = "<group>"; };
+		1A013A0B151BBC870006C14D /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HiJackMgr.mm; path = Lib/HiJackMgr.mm; sourceTree = "<group>"; };
 		1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,12 +63,12 @@
 		1AE8AC1B15096A81007E11A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AE8AC1D15096A81007E11A1 /* Breathalyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Breathalyzer-Prefix.pch"; sourceTree = "<group>"; };
 		1AE8AC1E15096A81007E11A1 /* BreathalyzerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreathalyzerAppDelegate.h; sourceTree = "<group>"; };
-		1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerAppDelegate.m; sourceTree = "<group>"; };
+		1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BreathalyzerAppDelegate.mm; sourceTree = "<group>"; };
 		1AE8AC2215096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BreathalyzerAppDelegate_iPhone.h; path = iPhone/BreathalyzerAppDelegate_iPhone.h; sourceTree = "<group>"; };
-		1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BreathalyzerAppDelegate_iPhone.m; path = iPhone/BreathalyzerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BreathalyzerAppDelegate_iPhone.mm; path = iPhone/BreathalyzerAppDelegate_iPhone.mm; sourceTree = "<group>"; };
 		1AE8AC2615096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		1AE8AC2915096A81007E11A1 /* BreathalyzerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BreathalyzerAppDelegate_iPad.h; path = iPad/BreathalyzerAppDelegate_iPad.h; sourceTree = "<group>"; };
-		1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BreathalyzerAppDelegate_iPad.m; path = iPad/BreathalyzerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = BreathalyzerAppDelegate_iPad.mm; path = iPad/BreathalyzerAppDelegate_iPad.mm; sourceTree = "<group>"; };
 		1AE8AC2D15096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		1AE8AC3415096A81007E11A1 /* BreathalyzerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathalyzerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE8AC3515096A81007E11A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,6 +76,7 @@
 		1AE8AC4015096A81007E11A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AE8AC4215096A81007E11A1 /* BreathalyzerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreathalyzerTests.h; sourceTree = "<group>"; };
 		1AE8AC4415096A81007E11A1 /* BreathalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerTests.m; sourceTree = "<group>"; };
+		1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEDCB49151BC01500AFF1AC /* AudioToolbox.framework in Frameworks */,
 				1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */,
 				1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */,
 				1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */,
@@ -86,9 +105,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A013A00151BBC770006C14D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1A013A01151BBC870006C14D /* aurio_helper.cpp */,
+				1A013A02151BBC870006C14D /* aurio_helper.h */,
+				1A013A03151BBC870006C14D /* CADebugMacros.cpp */,
+				1A013A04151BBC870006C14D /* CADebugMacros.h */,
+				1A013A05151BBC870006C14D /* CAMath.h */,
+				1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */,
+				1A013A07151BBC870006C14D /* CAStreamBasicDescription.h */,
+				1A013A08151BBC870006C14D /* CAXException.cpp */,
+				1A013A09151BBC870006C14D /* CAXException.h */,
+				1A013A0A151BBC870006C14D /* HiJackMgr.h */,
+				1A013A0B151BBC870006C14D /* HiJackMgr.mm */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		1AE8AC0015096A81007E11A1 = {
 			isa = PBXGroup;
 			children = (
+				1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */,
 				1AE8AC1515096A81007E11A1 /* Breathalyzer */,
 				1AE8AC3C15096A81007E11A1 /* BreathalyzerTests */,
 				1AE8AC0E15096A81007E11A1 /* Frameworks */,
@@ -119,8 +157,9 @@
 		1AE8AC1515096A81007E11A1 /* Breathalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				1A013A00151BBC770006C14D /* Lib */,
 				1AE8AC1E15096A81007E11A1 /* BreathalyzerAppDelegate.h */,
-				1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.m */,
+				1AE8AC1F15096A81007E11A1 /* BreathalyzerAppDelegate.mm */,
 				1AE8AC2115096A81007E11A1 /* iPhone */,
 				1AE8AC2815096A81007E11A1 /* iPad */,
 				1AE8AC1615096A81007E11A1 /* Supporting Files */,
@@ -143,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE8AC2215096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.h */,
-				1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m */,
+				1AE8AC2315096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.mm */,
 				1AE8AC2515096A81007E11A1 /* MainWindow_iPhone.xib */,
 			);
 			name = iPhone;
@@ -153,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE8AC2915096A81007E11A1 /* BreathalyzerAppDelegate_iPad.h */,
-				1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m */,
+				1AE8AC2A15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.mm */,
 				1AE8AC2C15096A81007E11A1 /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
@@ -284,9 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE8AC1C15096A81007E11A1 /* main.m in Sources */,
-				1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.m in Sources */,
-				1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.m in Sources */,
-				1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.m in Sources */,
+				1AE8AC2015096A81007E11A1 /* BreathalyzerAppDelegate.mm in Sources */,
+				1AE8AC2415096A81007E11A1 /* BreathalyzerAppDelegate_iPhone.mm in Sources */,
+				1AE8AC2B15096A81007E11A1 /* BreathalyzerAppDelegate_iPad.mm in Sources */,
+				1A013A0C151BBC870006C14D /* aurio_helper.cpp in Sources */,
+				1A013A0D151BBC870006C14D /* CADebugMacros.cpp in Sources */,
+				1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */,
+				1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */,
+				1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +395,12 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -376,13 +418,15 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -395,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
 				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +451,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
 				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,6 +510,7 @@
 				1AE8AC4A15096A81007E11A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AE8AC4B15096A81007E11A1 /* Build configuration list for PBXNativeTarget "BreathalyzerTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +519,7 @@
 				1AE8AC4D15096A81007E11A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
