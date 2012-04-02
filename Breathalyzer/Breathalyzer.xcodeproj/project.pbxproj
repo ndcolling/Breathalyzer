@@ -12,6 +12,7 @@
 		1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */; };
 		1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A08151BBC870006C14D /* CAXException.cpp */; };
 		1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A0B151BBC870006C14D /* HiJackMgr.mm */; };
+		1A29FD57152A6175003B9BE6 /* BreathalyzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */; };
 		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
 		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
 		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
@@ -54,6 +55,8 @@
 		1A013A09151BBC870006C14D /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Lib/CAXException.h; sourceTree = "<group>"; };
 		1A013A0A151BBC870006C14D /* HiJackMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiJackMgr.h; path = Lib/HiJackMgr.h; sourceTree = "<group>"; };
 		1A013A0B151BBC870006C14D /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HiJackMgr.mm; path = Lib/HiJackMgr.mm; sourceTree = "<group>"; };
+		1A29FD55152A6175003B9BE6 /* BreathalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreathalyzerViewController.h; sourceTree = "<group>"; };
+		1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerViewController.m; sourceTree = "<group>"; };
 		1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -163,6 +166,8 @@
 				1AE8AC2115096A81007E11A1 /* iPhone */,
 				1AE8AC2815096A81007E11A1 /* iPad */,
 				1AE8AC1615096A81007E11A1 /* Supporting Files */,
+				1A29FD55152A6175003B9BE6 /* BreathalyzerViewController.h */,
+				1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */,
 			);
 			path = Breathalyzer;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 				1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */,
 				1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */,
 				1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */,
+				1A29FD57152A6175003B9BE6 /* BreathalyzerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

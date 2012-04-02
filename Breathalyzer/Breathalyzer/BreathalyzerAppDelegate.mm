@@ -16,9 +16,19 @@
 @synthesize viewController = _viewController;
 
 //this function will receive data from hijack
- -(int)receive:(UInt8)data
+-(int)receive:(UInt8)data
 {
+    float sensorValue=(float)data/255;
+    //self.viewController.sensorValue = sensorValue;
+    
+    NSLog(@"x = %f", sensorValue);
+    
     return 0; 
+}
+
+-(int)sendByte:(UInt8)message
+{
+    return [hiJackMgr send:message];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

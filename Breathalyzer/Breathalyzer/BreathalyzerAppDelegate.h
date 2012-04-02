@@ -16,6 +16,7 @@
 }
 
 -(int)receive:(UInt8)data;
+-(int)sendByte:(UInt8)message;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet BreathalyzerViewController *viewController;
