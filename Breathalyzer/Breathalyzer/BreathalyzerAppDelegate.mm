@@ -8,37 +8,46 @@
 
 #import "BreathalyzerAppDelegate.h"
 #import "HiJackMgr.h"
+#import "BreathalyzerViewController.h"
 
 
 @implementation BreathalyzerAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize viewController;
 
 //this function will receive data from hijack
 -(int)receive:(UInt8)data
 {
-    float sensorValue=(float)data/255;
+    //float sensorValue=(float)data/255;
     //self.viewController.sensorValue = sensorValue;
     
-    NSLog(@"x = %f", sensorValue);
-    
+    NSLog(@"received: x = %i\n", data);
+    [viewController fillReceiveTextField:data];
     return 0; 
 }
 
 -(int)sendByte:(UInt8)message
 {
+    NSLog(@"sending: x = %i\n", message);
+
     return [hiJackMgr send:message];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{    
+    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
+    BreathalyzerViewController *aView = [[BreathalyzerViewController alloc] initWithNibName:@"BreathalyzerViewController" bundle:nil];
+    self.viewController = aView;
+    [_window addSubview:viewController.view];
+    [aView release];
+ 
+    
     //initialize HiJackMgr
     hiJackMgr = [[HiJackMgr alloc] init];
-    [hiJackMgr setDelegate:self];
+    [hiJackMgr setDelegate:(id)self];
     
-    // Override point for customization after application launch.
-    self.window.rootViewController = self.viewController;
     return YES;
 }
 
@@ -84,7 +93,7 @@
 - (void)dealloc
 {
     [hiJackMgr release];
-    [_viewController release];
+    [viewController release];
     [_window release];
     [super dealloc];
 }

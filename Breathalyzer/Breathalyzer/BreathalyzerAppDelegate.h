@@ -13,12 +13,14 @@
 
 @interface BreathalyzerAppDelegate : NSObject <UIApplicationDelegate> {
       HiJackMgr* hiJackMgr;
+      UIWindow *window;
+      BreathalyzerViewController *viewController;
 }
-
--(int)receive:(UInt8)data;
--(int)sendByte:(UInt8)message;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet BreathalyzerViewController *viewController;
+
+-(int)receive:(UInt8)data;
+-(int)sendByte:(UInt8)message;
 
 @end
