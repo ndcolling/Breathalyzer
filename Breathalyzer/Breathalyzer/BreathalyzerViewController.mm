@@ -1,21 +1,14 @@
 //
-//  BreathalyzerViewController.m
+//  BreathalyzerViewController.mm
 //  Breathalyzer
 //
-//  Created by Nathan Collingridge on 4/2/12.
+//  Created by Nathan Collingridge on 4/3/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "BreathalyzerViewController.h"
-//#import "EAGLView.h"
-
-#import <QuartzCore/QuartzCore.h>
-
 
 @implementation BreathalyzerViewController
-
-@synthesize animating;//, context, displayLink;
-@synthesize sensorValue;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,20 +29,11 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
-*/
 
 - (void)viewDidUnload
 {
