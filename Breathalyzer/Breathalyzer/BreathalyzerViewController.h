@@ -7,14 +7,15 @@
 //
 
 
-@interface BreathalyzerViewController : UIViewController{    
+@interface BreathalyzerViewController : UIViewController {    
 	UIButton *breathButton;
 	UIButton *sobrietyButton;
     UIButton *sendButton;
     UIButton *switchButton;  
     UIButton *initButton;  
+    UITextField *receiveValue;
     IBOutlet UITextField *sendValue;
-    IBOutlet UITextField *receiveValue;
+
     IBOutlet UILabel *myLabel;
 }
 

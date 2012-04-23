@@ -259,15 +259,16 @@ static OSStatus	PerformThru(
 								//////////////////////////////////////////////
 								// This is where we receive the byte!!!
 								if([THIS->theDelegate respondsToSelector:@selector(receive:)]) {
+                                    printf("uartByte = %d\n",uartByte);
 									[THIS->theDelegate receive:uartByte];
 								}
 								//////////////////////////////////////////////
 								[autoreleasepool release];
 							} else {
 								// not a valid byte.
-#ifdef DECDEBUGBYTE
+//#ifdef DECDEBUGBYTE
 								printf(" -- StopBit: %ld UartByte %d\n", sample, uartByte);
-#endif					
+//#endif					
 							}
 							decState = STARTBIT;
 						}
@@ -292,7 +293,8 @@ static OSStatus	PerformThru(
 	}
 #endif
 	
-	if (THIS->mute == NO) {
+//	if (THIS->mute == YES) //was causing problems so I commented it out. ndcolling
+    {
 		// prepare sine wave
 		
 		SInt32 values[inNumberFrames];
@@ -495,6 +497,7 @@ static OSStatus	PerformThru(
 - (int) send:(UInt8) data {
 	if (newByte == FALSE) {
 		// transmitter ready
+        printf("sending %d\n",data);
 		self.uartByteTransmit = data;
 		newByte = TRUE;
 		return 0;

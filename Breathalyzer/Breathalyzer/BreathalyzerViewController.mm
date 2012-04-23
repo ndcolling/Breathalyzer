@@ -22,8 +22,32 @@
 @synthesize receiveValue;
 @synthesize myLabel;
 
+-(void)enableTestButton
+{
+    [breathButton setEnabled:YES];
+}
+
+-(void)disableTestButton
+{
+    [breathButton setEnabled:NO];
+}
+
 - (IBAction) doBreathButton {
-	self.view.backgroundColor = [UIColor blackColor];
+    BreathalyzerAppDelegate *delegate = (BreathalyzerAppDelegate *)[[UIApplication sharedApplication] delegate];
+    if ([delegate isOnline] == NO)
+    {
+        NSLog(@"Hijack is not online");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Unable to talk to breathalyzer Reconnect and try again" delegate:nil cancelButtonTitle:@"Ok"otherButtonTitles:nil, nil];
+        [alert autorelease];
+        [alert show];
+    }
+    else
+    {
+        [delegate sendByte:TEST]; //todo send test signal
+        //switch view to test view...
+        self.view.backgroundColor = [UIColor greenColor];
+    }
+
 }
 
 - (IBAction) doSobrietyButton {
@@ -31,8 +55,8 @@
 }
 
 - (IBAction) doSwitchButton {
-    NSLog(@"receiveValue.text = %@",receiveValue.text);
-    NSLog(@"sendValue.text = %@",sendValue.text);  
+    //NSLog(@"receiveValue.text = %@",receiveValue.text);
+    //NSLog(@"sendValue.text = %@",sendValue.text);  
     //exit(0);
     NSString *temp = receiveValue.text;
     receiveValue.text = sendValue.text;
@@ -51,11 +75,10 @@
 }
 
 -(IBAction) fillReceiveTextField:(UInt8)value {
-    NSLog(@"filling receive text field with: %d\n",value);
+    //NSLog(@"filling receive text field with: %d\n",value);
     NSString *msg = [[NSString alloc] initWithFormat:@"%d",value];
     //[receiveValue setText:msg];
     receiveValue.text = msg;
-    myLabel.text = msg;
     [msg release];
     //[self loadView];
     //[self viewDidLoad];
@@ -92,6 +115,7 @@
  {
      [sendValue setKeyboardType:UIKeyboardTypeNumberPad];
      [receiveValue setUserInteractionEnabled:NO];
+
      //receiveValue.text=@"receive";
      //sendValue.text=@"send";
 

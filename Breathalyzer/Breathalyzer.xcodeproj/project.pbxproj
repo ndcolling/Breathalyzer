@@ -12,7 +12,9 @@
 		1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A06151BBC870006C14D /* CAStreamBasicDescription.cpp */; };
 		1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A08151BBC870006C14D /* CAXException.cpp */; };
 		1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A013A0B151BBC870006C14D /* HiJackMgr.mm */; };
-		1A29FD57152A6175003B9BE6 /* BreathalyzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */; };
+		1A29FD6C152BE38E003B9BE6 /* BreathalyzerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A29FD6A152BE38E003B9BE6 /* BreathalyzerViewController.mm */; };
+		1A29FD6D152BE38E003B9BE6 /* BreathalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A29FD6B152BE38E003B9BE6 /* BreathalyzerViewController.xib */; };
+		1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A30A27E15394212009EEF28 /* Entitlements.plist */; };
 		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
 		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
 		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
@@ -55,8 +57,10 @@
 		1A013A09151BBC870006C14D /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Lib/CAXException.h; sourceTree = "<group>"; };
 		1A013A0A151BBC870006C14D /* HiJackMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiJackMgr.h; path = Lib/HiJackMgr.h; sourceTree = "<group>"; };
 		1A013A0B151BBC870006C14D /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HiJackMgr.mm; path = Lib/HiJackMgr.mm; sourceTree = "<group>"; };
-		1A29FD55152A6175003B9BE6 /* BreathalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreathalyzerViewController.h; sourceTree = "<group>"; };
-		1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreathalyzerViewController.m; sourceTree = "<group>"; };
+		1A29FD69152BE38E003B9BE6 /* BreathalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreathalyzerViewController.h; sourceTree = "<group>"; };
+		1A29FD6A152BE38E003B9BE6 /* BreathalyzerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BreathalyzerViewController.mm; sourceTree = "<group>"; };
+		1A29FD6B152BE38E003B9BE6 /* BreathalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreathalyzerViewController.xib; sourceTree = "<group>"; };
+		1A30A27E15394212009EEF28 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +133,7 @@
 		1AE8AC0015096A81007E11A1 = {
 			isa = PBXGroup;
 			children = (
+				1A30A27E15394212009EEF28 /* Entitlements.plist */,
 				1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */,
 				1AE8AC1515096A81007E11A1 /* Breathalyzer */,
 				1AE8AC3C15096A81007E11A1 /* BreathalyzerTests */,
@@ -166,8 +171,9 @@
 				1AE8AC2115096A81007E11A1 /* iPhone */,
 				1AE8AC2815096A81007E11A1 /* iPad */,
 				1AE8AC1615096A81007E11A1 /* Supporting Files */,
-				1A29FD55152A6175003B9BE6 /* BreathalyzerViewController.h */,
-				1A29FD56152A6175003B9BE6 /* BreathalyzerViewController.m */,
+				1A29FD69152BE38E003B9BE6 /* BreathalyzerViewController.h */,
+				1A29FD6A152BE38E003B9BE6 /* BreathalyzerViewController.mm */,
+				1A29FD6B152BE38E003B9BE6 /* BreathalyzerViewController.xib */,
 			);
 			path = Breathalyzer;
 			sourceTree = "<group>";
@@ -292,6 +298,8 @@
 				1AE8AC1A15096A81007E11A1 /* InfoPlist.strings in Resources */,
 				1AE8AC2715096A81007E11A1 /* MainWindow_iPhone.xib in Resources */,
 				1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */,
+				1A29FD6D152BE38E003B9BE6 /* BreathalyzerViewController.xib in Resources */,
+				1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +344,7 @@
 				1A013A0E151BBC870006C14D /* CAStreamBasicDescription.cpp in Sources */,
 				1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */,
 				1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */,
-				1A29FD57152A6175003B9BE6 /* BreathalyzerViewController.m in Sources */,
+				1A29FD6C152BE38E003B9BE6 /* BreathalyzerViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1AE704981538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		1AE704991538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		1AE7049A1538960D0021D29B /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breathalyzer.app/Breathalyzer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
+				INFOPLIST_FILE = "BreathalyzerTests/BreathalyzerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "Ad Hoc";
+		};
 		1AE8AC4615096A81007E11A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -442,11 +508,18 @@
 		1AE8AC4915096A81007E11A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
 				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,11 +527,18 @@
 		1AE8AC4A15096A81007E11A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Breathalyzer/Breathalyzer-Prefix.pch";
 				INFOPLIST_FILE = "Breathalyzer/Breathalyzer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -505,6 +585,7 @@
 			buildConfigurations = (
 				1AE8AC4615096A81007E11A1 /* Debug */,
 				1AE8AC4715096A81007E11A1 /* Release */,
+				1AE704981538960D0021D29B /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -514,6 +595,7 @@
 			buildConfigurations = (
 				1AE8AC4915096A81007E11A1 /* Debug */,
 				1AE8AC4A15096A81007E11A1 /* Release */,
+				1AE704991538960D0021D29B /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -523,6 +605,7 @@
 			buildConfigurations = (
 				1AE8AC4C15096A81007E11A1 /* Debug */,
 				1AE8AC4D15096A81007E11A1 /* Release */,
+				1AE7049A1538960D0021D29B /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
