@@ -3036,7 +3036,7 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>358201096.243074</real>
+		<real>358201205.35623699</real>
 		<string>{2812, 1543}</string>
 		<string>{3516, 0}</string>
 		<dict>
@@ -14223,7 +14223,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>358201096.24771601</real>
+		<real>358201205.35994798</real>
 		<string>{2812, 1543}</string>
 		<string>{3516, 0}</string>
 		<string>-update</string>
