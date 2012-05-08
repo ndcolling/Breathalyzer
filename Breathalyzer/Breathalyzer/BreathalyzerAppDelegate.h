@@ -10,6 +10,7 @@
 #import "HiJackMgr.h"
 
 @class BreathalyzerViewController;
+@class BreathViewController;
 
 typedef enum
 {
@@ -24,6 +25,7 @@ typedef enum
       HiJackMgr* hiJackMgr;
       UIWindow *window;
       BreathalyzerViewController *viewController;
+      BreathViewController *breathViewController;
       UInt8 value;
       UInt8 result;
       State state;
@@ -31,6 +33,7 @@ typedef enum
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet BreathalyzerViewController *viewController;
+@property (nonatomic, retain) IBOutlet BreathViewController *breathViewController;
 
 -(int)receive:(UInt8)data;
 -(int)sendByte:(UInt8)message;

@@ -8,7 +8,8 @@
 
 #import "BreathalyzerViewController.h"
 #import "BreathalyzerAppDelegate.h"
-
+#import "SobrietyViewController.h"
+#import "BreathViewController.h"
 
 @implementation BreathalyzerViewController
 
@@ -30,26 +31,31 @@
     [breathButton setEnabled:NO];
 }
 
+-(void)enableBreathButton {
+    [breathButton setEnabled:YES];
+}
+
+-(void)disableBreathButton {
+    [breathButton setEnabled:NO];
+}
+
 - (IBAction) doBreathButton {
     BreathalyzerAppDelegate *delegate = (BreathalyzerAppDelegate *)[[UIApplication sharedApplication] delegate];
-    if ([delegate isOnline] == NO)
-    {
-        NSLog(@"Hijack is not online");
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Unable to talk to breathalyzer Reconnect and try again" delegate:nil cancelButtonTitle:@"Ok"otherButtonTitles:nil, nil];
-        [alert autorelease];
-        [alert show];
-    }
-    else
-    {
-        [delegate sendByte:TEST]; //todo send test signal
-        //switch view to test view...
-        self.view.backgroundColor = [UIColor greenColor];
-    }
-
+    [delegate sendByte:0x11]; // send test signal
+    //switch view to test view...
+    BreathViewController *theBreathViewController = [[BreathViewController alloc]
+                                                      initWithNibName:@"BreathViewController" bundle:nil];
+    theBreathViewController.navigationItem.title = @"Breath Test";
+    delegate.breathViewController = theBreathViewController;
+	[[self navigationController] pushViewController:theBreathViewController animated:YES];
 }
 
 - (IBAction) doSobrietyButton {
-	self.view.backgroundColor = [UIColor whiteColor];
+
+    SobrietyViewController *sobrietyViewController = [[SobrietyViewController alloc]
+                                                    initWithNibName:@"SobrietyViewController" bundle:nil];
+    sobrietyViewController.navigationItem.title = @"Sobriety Test";
+	[[self navigationController] pushViewController:sobrietyViewController animated:YES];
 }
 
 - (IBAction) doSendButton {
@@ -59,10 +65,8 @@
 }
 
 -(IBAction) fillReceiveTextField:(UInt8)value {
-    //NSLog(@"filling receive text field with: %d\n",value);
     NSString *msg = [NSString stringWithFormat:@"%d",value];
-    [self.receiveValue performSelectorOnMainThread : @ selector(setText : ) withObject:msg waitUntilDone:YES];
-    
+    [self.receiveValue performSelectorOnMainThread : @ selector(setText : ) withObject:msg waitUntilDone:YES];    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -96,10 +100,9 @@
  {
      [sendValue setKeyboardType:UIKeyboardTypeNumberPad];
      [receiveValue setUserInteractionEnabled:NO];
-
-     //receiveValue.text=@"receive";
-     //sendValue.text=@"send";
-
+     [self enableBreathButton];
+//     [self disableBreathButton];
+     self.title = @"Breathalyzer App";
      [super viewDidLoad];
  }
 

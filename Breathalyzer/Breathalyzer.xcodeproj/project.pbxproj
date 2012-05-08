@@ -15,6 +15,10 @@
 		1A29FD6C152BE38E003B9BE6 /* BreathalyzerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A29FD6A152BE38E003B9BE6 /* BreathalyzerViewController.mm */; };
 		1A29FD6D152BE38E003B9BE6 /* BreathalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A29FD6B152BE38E003B9BE6 /* BreathalyzerViewController.xib */; };
 		1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A30A27E15394212009EEF28 /* Entitlements.plist */; };
+		1AE7F3871558F9B900B735A8 /* SobrietyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */; };
+		1AE7F3881558F9B900B735A8 /* SobrietyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */; };
+		1AE7F39A155914EB00B735A8 /* BreathViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE7F398155914E600B735A8 /* BreathViewController.mm */; };
+		1AE7F39B155914EB00B735A8 /* BreathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE7F399155914E800B735A8 /* BreathViewController.xib */; };
 		1AE8AC1015096A81007E11A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC0F15096A81007E11A1 /* UIKit.framework */; };
 		1AE8AC1215096A81007E11A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1115096A81007E11A1 /* Foundation.framework */; };
 		1AE8AC1415096A81007E11A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8AC1315096A81007E11A1 /* CoreGraphics.framework */; };
@@ -61,6 +65,12 @@
 		1A29FD6A152BE38E003B9BE6 /* BreathalyzerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BreathalyzerViewController.mm; sourceTree = "<group>"; };
 		1A29FD6B152BE38E003B9BE6 /* BreathalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreathalyzerViewController.xib; sourceTree = "<group>"; };
 		1A30A27E15394212009EEF28 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1AE7F3841558F9B900B735A8 /* SobrietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobrietyViewController.h; sourceTree = "<group>"; };
+		1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SobrietyViewController.mm; sourceTree = "<group>"; };
+		1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobrietyViewController.xib; sourceTree = "<group>"; };
+		1AE7F397155914E400B735A8 /* BreathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreathViewController.h; sourceTree = "<group>"; };
+		1AE7F398155914E600B735A8 /* BreathViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BreathViewController.mm; sourceTree = "<group>"; };
+		1AE7F399155914E800B735A8 /* BreathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreathViewController.xib; sourceTree = "<group>"; };
 		1AE8AC0B15096A81007E11A1 /* Breathalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breathalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE8AC0F15096A81007E11A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AE8AC1115096A81007E11A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +143,12 @@
 		1AE8AC0015096A81007E11A1 = {
 			isa = PBXGroup;
 			children = (
+				1AE7F397155914E400B735A8 /* BreathViewController.h */,
+				1AE7F398155914E600B735A8 /* BreathViewController.mm */,
+				1AE7F399155914E800B735A8 /* BreathViewController.xib */,
+				1AE7F3841558F9B900B735A8 /* SobrietyViewController.h */,
+				1AE7F3851558F9B900B735A8 /* SobrietyViewController.mm */,
+				1AE7F3861558F9B900B735A8 /* SobrietyViewController.xib */,
 				1A30A27E15394212009EEF28 /* Entitlements.plist */,
 				1AEDCB48151BC01500AFF1AC /* AudioToolbox.framework */,
 				1AE8AC1515096A81007E11A1 /* Breathalyzer */,
@@ -300,6 +316,8 @@
 				1AE8AC2E15096A81007E11A1 /* MainWindow_iPad.xib in Resources */,
 				1A29FD6D152BE38E003B9BE6 /* BreathalyzerViewController.xib in Resources */,
 				1A30A27F15394212009EEF28 /* Entitlements.plist in Resources */,
+				1AE7F3881558F9B900B735A8 /* SobrietyViewController.xib in Resources */,
+				1AE7F39B155914EB00B735A8 /* BreathViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +363,8 @@
 				1A013A0F151BBC870006C14D /* CAXException.cpp in Sources */,
 				1A013A10151BBC870006C14D /* HiJackMgr.mm in Sources */,
 				1A29FD6C152BE38E003B9BE6 /* BreathalyzerViewController.mm in Sources */,
+				1AE7F3871558F9B900B735A8 /* SobrietyViewController.mm in Sources */,
+				1AE7F39A155914EB00B735A8 /* BreathViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,6 +25,8 @@
 @property (nonatomic, retain) IBOutlet UILabel *myLabel;
 
 - (IBAction)doBreathButton;
+-(void)enableBreathButton;
+-(void)disableBreathButton;
 - (IBAction)doSobrietyButton;
 - (IBAction)doSendButton;
 - (IBAction)fillReceiveTextField:(UInt8)value;
