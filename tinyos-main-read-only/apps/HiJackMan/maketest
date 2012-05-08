@@ -1,0 +1,2 @@
+Makefile:5: /home/David/tinyos-main-read-only/support/make/Makerules: No such file or directory
+make: *** No rule to make target `/home/David/tinyos-main-read-only/support/make/Makerules'.  Stop.
