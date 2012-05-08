@@ -16,8 +16,6 @@
 @synthesize breathButton;
 @synthesize sobrietyButton;
 @synthesize sendButton;
-@synthesize switchButton;
-@synthesize initButton;
 @synthesize sendValue;
 @synthesize receiveValue;
 @synthesize myLabel;
@@ -54,20 +52,6 @@
 	self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (IBAction) doSwitchButton {
-    //NSLog(@"receiveValue.text = %@",receiveValue.text);
-    //NSLog(@"sendValue.text = %@",sendValue.text);  
-    //exit(0);
-    NSString *temp = receiveValue.text;
-    receiveValue.text = sendValue.text;
-    receiveValue.text = temp;
-    
-}
-
-- (IBAction) initFields {
-    receiveValue.text = @"";
-}
-
 - (IBAction) doSendButton {
     UInt8 value = [sendValue.text intValue];
     BreathalyzerAppDelegate *delegate = (BreathalyzerAppDelegate *)[[UIApplication sharedApplication] delegate];
@@ -76,12 +60,9 @@
 
 -(IBAction) fillReceiveTextField:(UInt8)value {
     //NSLog(@"filling receive text field with: %d\n",value);
-    NSString *msg = [[NSString alloc] initWithFormat:@"%d",value];
-    //[receiveValue setText:msg];
-    receiveValue.text = msg;
-    [msg release];
-    //[self loadView];
-    //[self viewDidLoad];
+    NSString *msg = [NSString stringWithFormat:@"%d",value];
+    [self.receiveValue performSelectorOnMainThread : @ selector(setText : ) withObject:msg waitUntilDone:YES];
+    
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
