@@ -17,7 +17,6 @@ typedef enum
     INIT,    //initial state
     ONLINE,  //hijack is connected (online)
     TEST,    //user is performing a test
-    BUSY,    //test is processing
     COMPLETE //test is finished, final value is received.
 } State;
 
@@ -29,6 +28,7 @@ typedef enum
       UInt8 value;
       UInt8 result;
       State state;
+      BOOL showAlert;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -39,5 +39,6 @@ typedef enum
 -(int)sendByte:(UInt8)message;
 -(void)update;
 -(BOOL)isOnline;
+-(void)resetState;
 
 @end

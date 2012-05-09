@@ -100,8 +100,8 @@
  {
      [sendValue setKeyboardType:UIKeyboardTypeNumberPad];
      [receiveValue setUserInteractionEnabled:NO];
-     [self enableBreathButton];
-//     [self disableBreathButton];
+//     [self enableBreathButton];
+     [self disableBreathButton];
      self.title = @"Breathalyzer App";
      [super viewDidLoad];
  }

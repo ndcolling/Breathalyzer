@@ -9,13 +9,13 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "BreathViewController.h"
-         timestampString = "358160003.299917"
+         timestampString = "358230064.122239"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "16"
-         endingLineNumber = "16"
-         landmarkName = "@interface BreathViewController"
-         landmarkType = "2">
+         startingLineNumber = "18"
+         endingLineNumber = "18"
+         landmarkName = "label"
+         landmarkType = "19">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

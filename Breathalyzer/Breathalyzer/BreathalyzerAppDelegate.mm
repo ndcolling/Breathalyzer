@@ -17,10 +17,13 @@
 @synthesize viewController;
 @synthesize breathViewController;
 
-const UInt8 ACK = 0x80;
-const UInt8 TESTING = 0x86;
-const UInt8 ENGAGED = 0x10;
-
+//
+// These are the commands reveiced from the HiJack
+//
+const UInt8 ACK = 0x80; // IDLE (HiJack present)
+const UInt8 TESTING = 0x83; // TESTING (waiting for breath, 5s timeout)
+const UInt8 READING = 0x86; // READING (breath detected, waiting for stable reading)
+const UInt8 NOTREADY = 0x89; // NOTREADY (test requested but sensor not yet ready)
 
 //this function will receive data from hijack
 -(int)receive:(UInt8)data
@@ -30,26 +33,36 @@ const UInt8 ENGAGED = 0x10;
     
     //NSLog(@"received: x = %i\n", data);
     value = data;
-    
-    static UInt8 counter = 0;
-    if (counter == 0)
-    {
-        state = ONLINE;
-        counter = 1;
-    }
-    if (counter < 10)
+  /*
+    static UInt8 counter = 0;  
+  
+    //this tests the null read
+    if (counter < 6)
         value = 0x80;
-    else if (counter < 20)
-        value = 0x86;
-    else if (counter < 30)
-        value = 0x10;
-    else if (counter < 40)
-        value = data;
+    else if (counter < 8)
+        value = 0x89; //testing, waiting for breath 5s timeout
+    else if (counter < 10)
+        value = 0x89; //no breath detected
     else
         counter = 0;
-    //counter = counter + 1;
-    value = TESTING;
-    //[viewController fillReceiveTextField:value];
+    counter = counter + 1;
+*/
+    // This code tests normal operation, you need to manually press the button.
+/*
+    if (counter < 10)
+        value = 0x80;
+    else if (counter < 15)
+        value = 0x83; //testing, waiting for breath 5s timeout
+    else if (counter < 150)
+        value = 0x86; //breath detected
+    else if (counter < 246)
+        value = 15; //value read from the sensor.
+    else
+        counter = 0;
+    counter = counter + 1;
+*/
+    //value = READING;
+    [viewController fillReceiveTextField:value];
     [self update];
     return 0; 
 }
@@ -68,21 +81,24 @@ const UInt8 ENGAGED = 0x10;
             return @"ONLINE";
         case TEST:    //user is performing a test
             return @"TEST";
-        case BUSY:    //test is processing
-            return @"BUSY";
         case COMPLETE: //test is finished, final value is received.
             return @"COMPLETE";
     }
     return @"ERROR";
 }
+
+-(void)resetState {
+    state = INIT;
+}
 -(void)update
 {
-    static int count = 0;
-    NSLog(@"state = %@",[self lookUp:state]);
+    static int count = 0; 
+    //NSLog(@"state = %@",[self lookUp:state]);
+    //NSLog(@"value = %x",value);
     switch (state)
     {
         case INIT:
-            /*
+            showAlert = NO;
             if (value == ACK)
             {
                 count++;
@@ -91,38 +107,39 @@ const UInt8 ENGAGED = 0x10;
             {
                 //enable test button
                 [viewController enableBreathButton];
+                //NSLog(@"pressing breath button now");
+                //[viewController doBreathButton];
                 state = ONLINE;
             }
-            break;
-             */
-            break;
+            break;            
         case ONLINE:
-            if (value == TESTING) //may want to wait until more than 1 TESTING is received.
+            if (value == 0x89) //unable to test, sensor still has alco on it
+            {
+                [breathViewController updateLabel:@"Unable to test"];
+                [breathViewController displayNullReadAlert:@"Sensor still has alcohol gas from previous test. Press cancel and try again."];
+            }
+            if (value == READING) //may want to wait until more than 1 READING is received.
             {
                 //display analyzing
                 if (breathViewController != nil)
                 {
                     state = TEST;                    
-                    NSLog(@"Updating the label to read Analyzing");
+                    //NSLog(@"Updating the label to read Analyzing");
                     [breathViewController updateLabel:@"Analyzing"];
                 }
             }
-            /*
-            else if (value != ACK)
-            {
-                count--;
-            }
-            if (count < 1)
-            {
-                //disable button
-                [viewController disableBreathButton];
-                state = INIT;
-                count = 0;
-            }
-             */
+			
+			if (value == 0)
+			{
+				// Show "timeout or no alcohol detected"
+				// switch states
+                result = 0;
+                showAlert = YES;
+                state = COMPLETE;
+			}
             break;
         case TEST:
-            if (value == TESTING)
+            if (value == READING) // Better not wait too long here, if the value is returned quickly it will get stuck. -ds
             {
                 if (count < 2)
                     [breathViewController updateLabel:@"Analyzing."];
@@ -135,22 +152,14 @@ const UInt8 ENGAGED = 0x10;
                 else if (count < 10)
                     [breathViewController updateLabel:@"Analyzing....."];
                 else
-                    count = 0;
-
+                    count = 0;                
             }
-            else if (value == ENGAGED)
+            else if (value < 0x80)
             {
-                state = BUSY;
-            }
-            count = count + 1;
-            break;
-        case BUSY: //we may want a protocol (series of values to communicate before the result)
-            //value is the value we need to display...
-            if (value < 0x80)
-            {
-                result = value;
                 state = COMPLETE;
+				result = value;		
             }
+            count++;
             break;
         case COMPLETE:
             //display the result..
@@ -173,18 +182,26 @@ const UInt8 ENGAGED = 0x10;
                     bac = 0.12;
                 else if (result < 128)
                     bac = 0.14;
+                if (showAlert)
+                {
+                    [breathViewController displayNullReadAlert:[NSString stringWithFormat:@"No alcohol detected or device timeout. If you have consumed alcohol, please try again."]];
+                    showAlert = NO;
+                }
+
+                //NSLog(@"bac = %.2f",bac);
                 [breathViewController updateLabel:@"DONE!"];
-                [breathViewController updateAndShowResult:[NSString stringWithFormat:@"BAC = %f.2",bac]];
+                [breathViewController updateAndShowResult:[NSString stringWithFormat:@"BAC = %.2g",bac]];
             }
             break;
+			
             
     }
 }
 
 -(int)sendByte:(UInt8)message
 {
-    NSLog(@"sending: x = %i\n", message);
-
+    //NSLog(@"sending: x = %i\n", message);
+    
     return [hiJackMgr send:message];
 }
 
@@ -193,13 +210,13 @@ const UInt8 ENGAGED = 0x10;
     breathViewController = nil;
     
     //set initial state
-    NSLog(@"setting state to INIT");
+    //NSLog(@"setting state to INIT");
     state = INIT;
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     BreathalyzerViewController *aView = [[BreathalyzerViewController alloc] initWithNibName:@"BreathalyzerViewController" bundle:nil];
     self.viewController = aView;
-
+    
     UINavigationController *navController=[[UINavigationController alloc]initWithRootViewController:self.viewController];
     self.window.rootViewController = navController;
     [navController release];
