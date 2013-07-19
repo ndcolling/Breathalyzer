@@ -1,3 +1,4 @@
+# run this from the tinyos-main-read-only directory:
 export TOSROOT=`pwd`
 export TOSDIR="$TOSROOT/tos"
 export CLASSPATH=$TOSROOT/support/sdk/java:$TOSROOT/support/sdk/java/tinyos.jar:$CLASSPATH
